@@ -1,0 +1,13 @@
+kafka:
+  bootstrap_servers: "kafka:29092"
+  topic: "f1-telemetry"
+
+spark:
+  master: "spark://spark-master:7077"
+  app_name: "f1-realtime-analysis"
+  checkpoint_dir: "/opt/data/checkpoints"
+
+paths:
+  raw_data: "/opt/data/raw"
+  processed_data: "/opt/data/processed"
+  model_dir: "/opt/data/models"

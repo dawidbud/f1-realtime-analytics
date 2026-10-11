@@ -1,0 +1,6 @@
+kafka-python==2.0.2
+pandas
+matplotlib
+seaborn
+scikit-learn
+pyarrow
